@@ -1,10 +1,25 @@
-.images{
+#images{
     display:flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
-    height: 200px;
+    height: 220px;
+    border:4px solid;
+    background-color: thistle;
+    border-radius: 25px;
+    border: 2px solid thistle;
+    padding: 10px; 
+}
+#test{
+    top: 80%;
 }
 body{
-    background-image: blue_bg.jpeg;
+    font-family: monospace;
+    background-image: url("https://img.freepik.com/free-vector/flat-design-poker-table-background_23-2151047014.jpg");
+    color: thistle;
+    font-size: 120%;
+}
+.images{
+    border-radius: 50px;
+
 }
