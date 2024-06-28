@@ -1,7 +1,10 @@
-#kitty{
-    width: 100px;
-    height: 100px;
-    position: relative;
-    top: 0;
-    left: 0;
+.images{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    height: 200px;
+}
+body{
+    background-image: blue_bg.jpeg;
 }
